@@ -1,0 +1,112 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  width: 100%;
+  overflow-x: hidden;
+  background-image: url(../img/Untitled-2.png);
+  height: 100vh;
+}
+main > a {
+  color: inherit;
+  text-decoration: none;
+}
+main > li {
+  list-style-type: none;
+}
+main section, main aside, main footer, main header, main figure, main article {
+  display: flex;
+}
+main .row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.fa {
+  padding: 3px 15px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  height: 20px;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: rgb(18, 2, 127);
+  color: white;
+}
+
+.fa-instagram {
+  background: rgb(18, 2, 127);
+  color: white;
+  font-size: 20px;
+}
+
+.fa-telegram {
+  background: rgb(18, 2, 127);
+  color: white;
+  font-size: 20px;
+}
+
+.fa-google {
+  background: rgb(18, 2, 127);
+  color: white;
+  font-size: 20px;
+}
+
+.fa-linkedin {
+  background: rgb(18, 2, 127);
+  color: white;
+  font-size: 20px;
+}
+
+.fa-twitter {
+  background: rgb(18, 2, 127);
+  color: white;
+  font-size: 20px;
+}
+
+.fa-map-marker {
+  background: rgb(18, 2, 127);
+  color: white;
+  font-size: 20px;
+}
+
+.fa-map-marker {
+  background: rgb(3, 0, 23);
+  color: white;
+  font-size: 20px;
+}
+
+.fa-phone {
+  background: rgb(7, 2, 34);
+  color: white;
+  font-size: 20px;
+}
+
+.fa-mobile {
+  background: rgb(5, 1, 28);
+  color: white;
+  font-size: 20px;
+}/*# sourceMappingURL=global.css.map */

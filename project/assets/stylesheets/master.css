@@ -1,0 +1,469 @@
+.rel {
+  position: relative;
+}
+
+.head-top {
+  width: 100%;
+  height: 120px;
+  right: auto;
+  left: auto;
+  position: relative;
+  padding: 0 55px;
+}
+.head-top > div {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.head-top > div > * {
+  width: 100%;
+  height: 50px;
+}
+.head-top > div > *:first-of-type > div {
+  height: 100%;
+}
+.head-top > div > *:first-of-type > div:nth-of-type(1) {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+}
+.head-top > div > *:first-of-type > div:nth-of-type(1) > div {
+  width: 100%;
+  height: 100%;
+}
+.head-top > div > *:first-of-type > div:nth-of-type(1) > div:first-of-type {
+  width: 50%;
+  border-radius: 20px;
+  cursor: pointer;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+.head-top > div > *:first-of-type > div:nth-of-type(1) > div:first-of-type > p {
+  color: white;
+}
+.head-top > div > *:first-of-type > div:nth-of-type(1) > div:first-of-type > span {
+  color: white;
+}
+.head-top > div > *:first-of-type > div:nth-of-type(1) > div:last-of-type {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 50%;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.head-top > div > *:first-of-type > div:nth-of-type(1) > div:last-of-type > p {
+  color: white;
+}
+.head-top > div > *:first-of-type > div:nth-of-type(1) > div:last-of-type > span {
+  color: white;
+}
+.head-top > div > *:first-of-type > div:nth-of-type(2) {
+  width: 60%;
+  position: relative;
+}
+.head-top > div > *:first-of-type > div:nth-of-type(2) > input {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+.head-top > div > *:first-of-type > div:nth-of-type(2) > i {
+  position: absolute;
+  right: 0;
+  top: 20%;
+  font-size: 35px;
+}
+.head-top > div > *:first-of-type > div:nth-of-type(3) {
+  width: 20%;
+  display: flex;
+  justify-content: end;
+}
+.head-top > div > *:first-of-type > div:nth-of-type(3) > img {
+  width: 120px;
+  height: 100%;
+}
+.head-top > div > *:last-of-type > div {
+  justify-content: space-evenly;
+}
+.head-top > div > *:last-of-type > div:first-of-type {
+  width: 20%;
+  display: flex;
+  align-items: center;
+}
+.head-top > div > *:last-of-type > div:first-of-type > p {
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+}
+.head-top > div > *:last-of-type > div:last-of-type {
+  width: 80%;
+  height: 100%;
+}
+.head-top > div > *:last-of-type > div:last-of-type > nav {
+  height: 100%;
+}
+.head-top > div > *:last-of-type > div:last-of-type > nav > ul {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.head-top > div > *:last-of-type > div:last-of-type > nav > ul > li {
+  list-style-type: none;
+  padding: 30px;
+}
+.head-top > div > *:last-of-type > div:last-of-type > nav > ul > li > a {
+  color: white;
+  font-size: 20px;
+}
+.head-top > div > *:last-of-type > div:last-of-type > nav > ul > li:hover ul {
+  display: block;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.789);
+}
+.head-top > div > *:last-of-type > div:last-of-type > nav > ul > li > .mega1 {
+  position: absolute;
+  width: 100%;
+  height: 200%;
+  background-color: rgba(0, 0, 0, 0.61);
+  left: 0;
+  top: 105px;
+  display: none;
+}
+.head-top > div > *:last-of-type > div:last-of-type > nav > ul > li > .mega1 > li {
+  cursor: pointer;
+}
+.head-top > div > *:last-of-type > div:last-of-type > nav > ul > li > .drop1 {
+  background-color: rgb(227, 206, 184);
+  width: 200%;
+  position: absolute;
+  top: 60px;
+  left: 20;
+  display: none;
+}
+.head-top > div > *:last-of-type > div:last-of-type > nav > ul > li > .drop1 > li {
+  line-height: 50px;
+  padding-left: 10px;
+  list-style: none;
+  font-size: 22px;
+  cursor: pointer;
+}
+.head-top > div > *:last-of-type > div:last-of-type > nav > ul > li > a {
+  text-decoration: none;
+  font-size: 25px;
+}
+.head-top > div > *:last-of-type > div:last-of-type > nav > ul > li > a:hover {
+  color: red;
+}
+
+.title {
+  padding: 0 55px;
+  width: 100%;
+}
+.title > .row {
+  justify-content: end;
+}
+.title > .row > * {
+  padding: 0 10px;
+}
+.title > .row > a {
+  text-decoration: none;
+  font-size: 20px;
+  color: red;
+}
+.title > .row > span {
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.title > .row > p {
+  font-size: 20px;
+  color: white;
+}
+
+.shop-products {
+  width: 100%;
+  height: auto;
+  margin-top: 45px;
+  padding: 0 55px;
+}
+.shop-products > .row > .products-list {
+  height: 100%;
+  width: 70%;
+}
+.shop-products > .row > .products-list > .row {
+  height: 100%;
+  width: 100%;
+}
+.shop-products > .row > .products-list > .row > .filter-price {
+  width: 90%;
+  height: 5%;
+  margin-bottom: 40px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 0 10px;
+}
+.shop-products > .row > .products-list > .row > .filter-price > .row {
+  height: 100%;
+}
+.shop-products > .row > .products-list > .row > .filter-price > .row > div {
+  width: 100%;
+  height: auto;
+}
+.shop-products > .row > .products-list > .row > .filter-price > .row > div:first-of-type {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+.shop-products > .row > .products-list > .row > .filter-price > .row > div:first-of-type > p {
+  color: rgb(15, 0, 0);
+  font-size: 25px;
+  cursor: pointer;
+}
+.shop-products > .row > .products-list > .row > .filter-price > .row > div:last-of-type {
+  width: 50%;
+  justify-content: right;
+  align-items: center;
+}
+.shop-products > .row > .products-list > .row > .filter-price > .row > div:last-of-type > a {
+  color: black;
+  font-size: 30px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.shop-products > .row > .products-list > .row > .filter-price > .row > div:last-of-type > div > a {
+  text-decoration: none;
+  color: rgb(10, 0, 0);
+  margin-left: 20px;
+  font-size: 30px;
+}
+.shop-products > .row > .products-list > .row > .products-card {
+  width: auto;
+  height: auto;
+  padding: 0 55px;
+}
+.shop-products > .row > .products-list > .row > .products-card > .row {
+  justify-content: center;
+}
+.shop-products > .row > .products-list > .row > .products-card > .row > div {
+  width: 30%;
+  height: 450px;
+  background-color: white;
+  transition: 0.4s;
+  margin: 0 15px;
+  border-radius: 30px;
+}
+.shop-products > .row > .products-list > .row > .products-card > .row > div:hover {
+  transform: translate(10px, -10px);
+}
+.shop-products > .row > .products-list > .row > .products-card > .row > div > figure > a {
+  text-decoration: none;
+}
+.shop-products > .row > .products-list > .row > .products-card > .row > div > figure > a > img {
+  width: 280px;
+  height: 350px;
+}
+.shop-products > .row > .products-list > .row > .products-card > .row > div > figure > a > figcaption {
+  margin-top: 20px;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
+.shop-products > .row > .products-list > .row > .products-card > .row > div > figure > a > figcaption:hover {
+  color: red;
+}
+.shop-products > .row > .products-list > .row > .products-card > .row > div > figure > a > span {
+  font-size: 20px;
+}
+.shop-products > .row > .products-list > .row > .products-card > .row > div > figure > a > span:hover {
+  font-size: 25px;
+  color: rgba(255, 0, 0, 0.693);
+}
+.shop-products > .row > .products-list > .row .card-page {
+  height: auto;
+  width: auto;
+  background-color: white;
+  border-radius: 30px;
+  padding: 0 55px;
+}
+.shop-products > .row > .products-list > .row .card-page > .row {
+  justify-content: center;
+  height: 100%;
+}
+.shop-products > .row > .products-list > .row .card-page > .row > div {
+  background-color: gold;
+  width: 50px;
+  height: 50px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+  border-radius: 15px;
+  transition: 0.4s;
+}
+.shop-products > .row > .products-list > .row .card-page > .row > div:hover {
+  background-color: red;
+}
+.shop-products aside {
+  height: 100%;
+  width: 30%;
+  background-color: white;
+  padding: 30px;
+  border-radius: 20px;
+}
+.shop-products aside > .row {
+  background-color: ghostwhite;
+  height: 100%;
+  justify-content: center;
+}
+.shop-products aside > .row > div {
+  padding: 50px 0;
+  position: relative;
+}
+.shop-products aside > .row > div::after {
+  content: "";
+  position: absolute;
+  height: 3px;
+  width: 90%;
+  background-color: black;
+  left: 30px;
+  top: 100px;
+}
+.shop-products aside > .row > div > h3 {
+  cursor: pointer;
+}
+.shop-products aside > .row > div > span {
+  cursor: pointer;
+}
+.shop-products aside > .row > div:nth-of-type(3) {
+  justify-content: space-between;
+}
+.shop-products aside > .row > div:nth-of-type(3) > div > h3 {
+  font-size: 20px;
+  cursor: pointer;
+}
+.shop-products aside > .row > div:nth-of-type(3) > div:first-of-type > h3 {
+  color: red;
+}
+.shop-products aside > .row > div:nth-of-type(4) {
+  display: flex;
+  justify-content: space-between;
+}
+.shop-products aside > .row > div:nth-of-type(4) > span {
+  font-size: 20px;
+  padding-right: 40px;
+}
+.shop-products aside > .row > div:nth-of-type(2) {
+  justify-content: space-between;
+  padding-right: 40px;
+}
+.shop-products aside > .row > div:nth-of-type(5) {
+  justify-content: space-between;
+}
+.shop-products aside > .row > div:nth-of-type(5) > span {
+  font-size: 20px;
+  padding-right: 40px;
+}
+.shop-products aside > .row > div:nth-of-type(6) {
+  justify-content: space-between;
+}
+.shop-products aside > .row > div:nth-of-type(6) > span {
+  font-size: 20px;
+  padding-right: 40px;
+}
+.shop-products aside > .row > div:nth-of-type(8) {
+  justify-content: space-between;
+}
+.shop-products aside > .row > div:nth-of-type(8) > span {
+  font-size: 20px;
+  padding-right: 40px;
+}
+.shop-products aside > .row > div:nth-of-type(7) {
+  justify-content: space-between;
+}
+.shop-products aside > .row > div:nth-of-type(7) > span {
+  font-size: 20px;
+  padding-right: 40px;
+}
+.shop-products aside > .row > div:nth-of-type(9) {
+  justify-content: space-between;
+}
+.shop-products aside > .row > div:nth-of-type(9) > span {
+  font-size: 20px;
+  padding-right: 40px;
+}
+.shop-products aside > .row > div:nth-of-type(10) {
+  justify-content: space-between;
+}
+.shop-products aside > .row > div:nth-of-type(10) > span {
+  font-size: 20px;
+  padding-right: 40px;
+}
+
+footer {
+  width: 100%;
+  height: 500px;
+  background-image: url(../img/2222\ logo.jpg);
+  margin-top: 15px;
+}
+footer > .row {
+  width: 100%;
+  height: 100%;
+  align-items: end;
+  justify-content: space-around;
+}
+footer > .row > * {
+  width: auto;
+  height: 300px;
+}
+footer > .row > nav > ul {
+  width: 100%;
+  height: 100%;
+}
+footer > .row > nav > ul > li {
+  padding: 10px 0;
+  display: flex;
+  list-style: none;
+  line-height: 20px;
+}
+footer > .row > nav > ul > li > a {
+  padding: 0 10px;
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+footer > .row > div {
+  height: 200px;
+}
+footer > .row > div > h2 {
+  color: white;
+}
+footer > .row > div > ul > li {
+  margin-top: 10px;
+  line-height: 30px;
+  list-style: none;
+  display: flex;
+}
+footer > .row > div > ul > li > p {
+  color: white;
+  padding: 0 20px;
+  font-size: 20px;
+}
+footer > .row > div > ul > li > span {
+  color: red;
+}
+footer > .row > nav ul {
+  width: 100%;
+}
+footer > .row > nav ul > li {
+  line-height: 30px;
+  list-style: none;
+}
+footer > .row > nav ul > li > span, footer > .row > nav ul > li address {
+  color: white;
+  padding: 0 15px;
+}/*# sourceMappingURL=master.css.map */
